@@ -4,6 +4,7 @@ import Dashboard from "./components/Dashboard";
 import AuthProvider from "./hooks/AuthProvider";
 import PrivateRoute from "./router/PrivateRoute";
 import Welcome from "./components/Welcome";
+import './App.css'
 
 function App() {
     return (
