@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.btn-submit {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #008CBA;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: auto;
+}
+
+.btn-submit:hover {background-color: #007196
+}
+
+.btn-submit:active {
+    background-color: #007196;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
