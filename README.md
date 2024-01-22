@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Shift Calendar (Frontend)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://reactjs.org/" target="blank"><img src="https://reactjs.org/logo-og.png" width="300" alt="React Logo" /></a>
+</p>
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+Welcome to the GitHub repository for the frontend of *Shift Calendar*, a sleek and responsive application designed for seamless management and sharing of work shifts. This project, inspired by the need for a straightforward shift scheduling tool, complements the backend to offer a complete user experience.
 
-### `npm start`
+## About Shift Calendar Frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Shift Calendar frontend is a React-based application, providing a dynamic and interactive user interface. It's tailored for individuals and teams who need an effective way to manage and share diverse work schedules.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Key Features
 
-### `npm test`
+- **Interactive Calendar Interface:** A visually appealing and interactive calendar for easy shift management.
+- **Responsive Design:** Optimized for both desktop and mobile devices, ensuring accessibility on the go.
+- **Real-Time Updates:** Instantly reflects changes made to shifts, keeping users up-to-date.
+- **User-Friendly Navigation:** Intuitive and easy-to-use interface, suitable for all user levels.
+- **Integration with Backend:** Seamlessly connects with the Shift Calendar backend for a cohesive experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technical Details
 
-### `npm run build`
+- **Framework:** Built with React, utilizing functional components and hooks for state management.
+- **State Management:** Employs Redux for centralized state control.
+- **Styling:** Styled Components and/or CSS Modules for modular and maintainable styling.
+- **API Integration:** Axios or Fetch for efficient communication with the backend RESTful API.
+- **Routing:** React Router for navigation between different views and components.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To start using the Shift Calendar frontend, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the Repository:** `git clone https://github.com/filiptomanec/Shift-Calendar.git`
+2. **Install Dependencies:** Run `npm install` to install all necessary dependencies.
+3. **Configure Environment:** Set up `.env` file with necessary API endpoints and configurations.
+4. **Start the Application:** Execute `npm start` to run the app in development mode.
 
-### `npm run eject`
+## Contact
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Filip Tomanec - tomanec.f@gmail.com
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Frontend Repository: https://github.com/filiptomanec/Shift-Calendar
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Backend Repository: https://github.com/filiptomanec/shift-calendar-BE
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Acknowledgements
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [React](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [Axios](https://axios-http.com/) / [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+- [Styled Components](https://styled-components.com/) / [CSS Modules](https://github.com/css-modules/css-modules)
