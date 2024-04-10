@@ -1,21 +1,26 @@
 import {useState} from "react";
 import {useAuth} from "../hooks/AuthProvider";
-import "../styles/main.css"
-import "../styles/form.css"
+import "../styles/main.css";
+import "../styles/form.css";
+import LoadingSpinner from "./LoadingSpinner";
+
 
 const Login = () => {
     const [input, setInput] = useState({
         email: "",
         password: "",
     });
+    const [isLoading, setIsLoading] = useState(false);
 
     const auth = useAuth();
     const handleSubmitEvent = (e) => {
         e.preventDefault();
+        setIsLoading(true);
         if (input.email !== "" && input.password !== "") {
-            auth.loginAction(input);
+            auth.loginAction(input, setIsLoading);
             return;
         }
+        setIsLoading(false);
         alert("please provide a valid input");
     };
 
@@ -59,7 +64,13 @@ const Login = () => {
                         your password should be more than 6 character
                     </div>
                 </div>
-                <button className="btn-submit">Submit</button>
+                <button className="btn-submit" disabled={isLoading}>
+                    {isLoading ?
+                        <LoadingSpinner/>
+                        :
+                        "Submit"
+                    }
+                </button>
             </form>
         </div>
     );
